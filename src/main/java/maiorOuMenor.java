@@ -17,12 +17,10 @@ public class maiorOuMenor {
         idadeDoUsuario = ano - anoDeNasc;
 
         if (idadeDoUsuario < 18) {
-            System.out.println("A sua idade é " + idadeDoUsuario);
-            System.out.println("Voce é menor de idade");
+            System.out.println("A sua idade é " + idadeDoUsuario + " ,Voce é menor de idade");
         }
         else{
-            System.out.println("A sua idade é " + idadeDoUsuario);
-            System.out.println("Você é maior de idade");
+            System.out.println("A sua idade é " + idadeDoUsuario + " ,Você é maior de idade");
         }
     }
 }
